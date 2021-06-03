@@ -27,7 +27,7 @@ app.use(function(req, res, next){
 app.set('views', '../web');
 app.use(express.static('../web'));
 app.set('view engine', 'ejs');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; 
 
 let products = [{
     "sku" : "string1",
